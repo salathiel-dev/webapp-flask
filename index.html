@@ -6,7 +6,9 @@
     <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
     <title>Classificador de Imagens</title>
 </head>
-<body class="bg-cover" style="background-image: url('{{ url_for('static', filename='images/background.png') }}'); background-cover;">
+<!--<body class="bg-cover" style="background-image: url('{{ url_for('static', filename='images/background.png') }}'); background-cover;">-->
+<body class="bg-cover" style="background-image: url('/static/images/background.png'); background-cover;">
+
     <div class="container mx-auto py-4">
         <h1 class="text-center text-2xl font-bold">Classificador de Imagens</h1>
         
